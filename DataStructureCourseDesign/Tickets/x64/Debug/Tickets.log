@@ -1,0 +1,23 @@
+﻿  Main.cpp
+D:\图片\Tickets\Basic.h(28,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Basic.h(36,36): warning C4244: “初始化”: 从“unsigned __int64”转换到“double”，可能丢失数据
+D:\图片\Tickets\Check.h(27,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Check.h(38,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Check.h(56,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Check.h(66,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Check.h(76,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Check.h(85,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Trie.h(26,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Trie.h(37,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Trie.h(48,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Trie.h(59,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\People.h(49,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\People.h(62,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Plane.h(57,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Plane.h(95,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Train.h(79,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Train.h(94,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\图片\Tickets\Function.h(159,26): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\图片\Tickets\Function.h(177,97): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\图片\Tickets\Show.h(823): warning C4715: “UI::Passenger”: 不是所有的控件路径都返回值
+  Tickets.vcxproj -> D:\图片\Tickets\x64\Debug\Tickets.exe
