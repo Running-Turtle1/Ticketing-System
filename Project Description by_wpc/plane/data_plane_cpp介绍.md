@@ -2,7 +2,7 @@
 
 - 关于头文件说明和 read()函数请参见 `总体说明.md`  
 
-<img src="..\\markdown_Inserts\\data_plane_1.png" alt="data_plane_1.png">
+<img src="markdown_Inserts\\data_plane_1.png" alt="data_plane_1.png">
 
 ## 代码含义说明
 
@@ -14,11 +14,11 @@ $f$ 数组输出 $1\sim n$ 个城市编号，并且打乱 。
 
 以下生成随机数据的方式比较简单，故不做说明。
 
-<img src = "..\\markdown_Inserts\\data_plane_2.png" alt="data_plane_2.png">
+<img src = "markdown_Inserts\\data_plane_2.png" alt="data_plane_2.png">
 
-<img src = "..\\markdown_Inserts\\data_plane_3.png" alt="data_plane_3.png">
+<img src = "markdown_Inserts\\data_plane_3.png" alt="data_plane_3.png">
 
-<img src = "..\\markdown_Inserts\\data_plane_4.png" alt="data_plane_4.png">
+<img src = "markdown_Inserts\\data_plane_4.png" alt="data_plane_4.png">
 
 ## 生成数据的结构
 
