@@ -551,7 +551,7 @@ bool Show_UI()
     printf("ÄúµÄÑ¡ÔñÊÇ£º");
     string ins;
     cin >> ins;
-    while(Check_Choose(0, 4, ins) == 0) ReRead(ins);
+    while(Check_Choose(0, 5, ins) == 0) ReRead(ins);
     if(ins == "0")  return 0;
     else if(ins == "1")  UI :: Management();
     else if(ins == "2") UI :: Passenger();
@@ -561,6 +561,9 @@ bool Show_UI()
         UI :: Init_train();
         UI :: Init_plane();
         
+    }
+    else {
+        return false;
     }
     return true;
 }
