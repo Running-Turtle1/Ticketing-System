@@ -2,7 +2,7 @@
 
 - 关于头文件说明和 read()函数请参见 `总体说明.md`  
 
-<img src = "..\markdown_Inserts\data_plane_1.png" alt="data_plane_1.png">
+<img src="..\markdown_Inserts\data_plane_1.png" alt="data_plane_1.png">
 
 ## 代码含义说明
 
