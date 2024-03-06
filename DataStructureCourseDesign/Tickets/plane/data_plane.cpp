@@ -27,14 +27,16 @@ int main()
     for(int i = 1; i <= n; i++) f[i] = i;
     random_shuffle(f+1, f+1+n);
 
-    printf("生成航班数量(至少2n-2)：");
+    // 2n : 使得每个城市都可以至少作为一次出发站和终点站)
+    printf("生成航班数量(至少2n)：");
     int m = read();
-    m = max(2 * n - 2, m);
+    m = max(2 * n, m);
     data1 << m << endl;
-    m -= 2 * (n - 1);
-    for(int i = 1; i < n; i++)
+    m -= 2 * n;
+    for(int i = 1; i <= n; i++)
     {
-        data1 << f[i] << " " << f[i+1] << " ";
+        if(i != n) data1 << f[i] << " " << f[i+1] << " ";
+        else data1 << f[i] << " " << f[0] << " ";
 
         while(1)
         {
@@ -56,9 +58,10 @@ int main()
         if(a < b)   swap(a, b);
         data1 << a << " " << b << " " << c << endl;   
     }
-    for(int i = n; i > 1; i--)
+    for(int i = n; i >= 1; i--)
     {
-        data1 << f[i] << " " << f[i - 1] << " ";
+        if(i != 1) data1 << f[i] << " " << f[i - 1] << " ";
+        else data1 << f[i] << " " << f[n] << " ";
 
         while(1)
         {
@@ -82,9 +85,10 @@ int main()
     }
     for(int i = 1; i <= m; i++)
     {
-        int _ = f[rand() * rand() % n + 1], __ = f[rand() * rand() % n + 1];
-        while(_ == __)  __ = f[rand() * rand() % n + 1];
-        data1 << _ << " " << __ << " ";
+        int x = f[rand() * rand() % n + 1];
+        int y = f[rand() * rand() % n + 1];
+        while(x == y) y = f[rand() * rand() % n + 1];
+        data1 << x << " " << y << " ";
 
         while(1)
         {
