@@ -2,8 +2,7 @@
 #include "Train.h"
 #include "People.h"
 #include "Show.h"
-int main()
-{
+int main(){
     while(Show_UI());
     system("pause");
     return 0;

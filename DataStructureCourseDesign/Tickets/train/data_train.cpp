@@ -21,6 +21,7 @@ int read()
 
 int main()
 {
+    srand(time(0));
     ofstream data1("data_train.txt");
     printf("生成城市数量：");
     int n = read();
@@ -30,9 +31,11 @@ int main()
     printf("生成航班数量(至少2n)：");
     int m = read();
     m = max(2 * n, m);
+
+    data1 << n << endl;
     data1 << m << endl;
-    m -= 2 * n;
-    for(int i = 1; i <= n; i++)
+    
+    for(int i = 1; i <= n; i++) // 每个城市都会作为一次起点站
     {
         if (i != n) data1 << f[i] << " " << f[i + 1] << " ";
         else data1 << f[i] << " " << f[0] << " ";
@@ -57,10 +60,10 @@ int main()
         if(a < b)   swap(a, b);
         data1 << a << " " << b << " " << c << endl;   
     }
-    for(int i = n; i >= 1; i--)
+    for(int i = n; i >= 1; i--) // 每个城市都会作为一次终点站
     {
-        if (i != 1) data1 << f[i] << " " << f[i - 1] << " ";
-        else data1 << f[i] << " " << f[n] << " ";
+        if (i != 1) data1 << f[i - 1] << " " << f[i] << " ";
+        else data1 << f[n] << " " << f[1] << " ";
 
         while(1)
         {
@@ -82,6 +85,7 @@ int main()
         if(a < b)   swap(a, b);
         data1 << a << " " << b << " " << c << endl;   
     }
+    m -= 2 * n;
     for(int i = 1; i <= m; i++)
     {
         int x = f[rand() * rand() % n + 1];
