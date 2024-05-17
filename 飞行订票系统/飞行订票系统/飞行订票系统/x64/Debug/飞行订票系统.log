@@ -1,0 +1,8 @@
+﻿  Plan.cpp
+C:\Users\95432\Desktop\飞行订票系统\飞行订票系统\飞行订票系统\Plan.cpp(121,56): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\95432\Desktop\飞行订票系统\飞行订票系统\飞行订票系统\Plan.cpp(124,56): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\95432\Desktop\飞行订票系统\飞行订票系统\飞行订票系统\Plan.cpp(127,56): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\95432\Desktop\飞行订票系统\飞行订票系统\飞行订票系统\Plan.cpp(130,56): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\95432\Desktop\飞行订票系统\飞行订票系统\飞行订票系统\Plan.cpp(294,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\95432\Desktop\飞行订票系统\飞行订票系统\飞行订票系统\Plan.cpp(298,17): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  飞行订票系统.vcxproj -> C:\Users\95432\Desktop\飞行订票系统\飞行订票系统\x64\Debug\飞行订票系统.exe

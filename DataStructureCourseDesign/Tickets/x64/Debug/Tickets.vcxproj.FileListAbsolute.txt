@@ -1,3 +1,0 @@
-D:\图片\Tickets\x64\Debug\Tickets.exe
-E:\GitHubDeskTop_\Ticketing-System\DataStructureCourseDesign\Tickets\x64\Debug\Tickets.exe
-C:\Users\95432\Desktop\DataStructureCourseDesign\Tickets\x64\Debug\Tickets.exe
